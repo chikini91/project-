@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>WebWorld</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="dist/js/main.min.js"></script>
+    <link rel="stylesheet" href="dist/main.min.css">
+    <link rel="stylesheet" href="dist/media.css">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <script>
+    document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="jsfixedNav">
+            <ul>
+                <li><a href="#webworld">HOME</a></li>
+                <li><a href="#section1">ABOUT US</a></li>
+                <li><a href="#aside">SERVICES</a></li>
+                <li><a href="#site">CONTACT US</a></li>
+            </ul>
+        </div>
+        <section class="first">
+            <div class="first__web" id="webworld"><span>Web</span>World</div>
+            <div class="first__social">
+                <a hresf="https://twitter.com/?lang=ru" target="blank"> <img src="img/t.png" alt=""></a>
+                <a href="https://www.skype.com/ru/" target="blank"><img src="img/s.png" alt=""></a>
+                <a href="https://www.facebook.com" target="blank"><img src="img/f.png" alt=""></a>
+            </div>
+        </section>
+        <section class="second">
+            <ul class="second__containerforline">
+                <li data-index="1" class="second__containerforline_active"><a href="#webworld">Home</a></li>
+                <li data-index="2"><a href="#section1">About us</a></li>
+                <li data-index="3"><a href="#aside">Service</a></li>
+                <li data-index="4"><a href="#site">Contact us</a></li>
+                <li data-index="5"><a href="#section1">About us</a></li>
+                <span class="second__containerforline_slidingLine"></span>
+            </ul>
+            <form action="bla.php">
+                <input type="search" name="search" placeholder="Поиск по сайту" id="search">
+                <input type="image" src="img/w.png" id="goog">
+            </form>
+        </section>
+    </header>
+    <main>
+        <div class="sliderContainer">
+            <ul class="sliderContainer__slides">
+                <li><img src="img/sl1.jpg" alt=""></li>
+                <li><img src="img/sl2.jpg" alt=""></li>
+                <li><img src="img/sl3.jpg" alt=""></li>
+            </ul>
+            <div class="sliderContainer__buttons">
+                <div class="sliderContainer__buttons_prev">
+                    <img src="img/l.png" alt="">
+                </div>
+                <div class="sliderContainer__buttons_next">
+                    <img src="img/r.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="section1" id="section1">
+            <div class="section1__text">
+                <h1>Lorem ipsum <strong>dolor sit amet, consectetur</strong> adipisicing elit.
+				</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut rem veniam, eaque vel repudiandae eius quae ullam saepe, exercitationem, ipsam atque dolor. Maxime minima sequi repellat distinctio ipsam inventore laborum tempore, ea praesentium culpa beatae. Voluptatum atque, quisquam dolorum suscipit inventore, nihil molestiae vel eos voluptatem magni eius. Eaque, dolores.
+                </p>
+            </div>
+            <div class="section1__icons">
+                <div class="section1__icons__icon icon1">
+                    <img src="img/6.png"  alt="" title="click me">
+                    <div class="section1__icons__icon_subscribe">
+                        <span>Click me </span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab praesentium quia aut placeat, earum quae. </p>
+                    </div>
+                    <div class="section1__icons__icon_triangle"></div>
+                </div>
+                <div class="section1__icons__icon icon2">
+                    <img src="img/118.png"  alt="" title="click me">
+                    <div class="section1__icons__icon_subscribe">
+                        <span>Click me</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab praesentium quia aut placeat, earum quae. </p>
+                    </div>
+                </div>
+                <div class="section1__icons__icon icon3">
+                    <img src="img/228.png" alt="" title="click me">
+                    <div class="section1__icons__icon_subscribe">
+                        <span>Click me </span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab praesentium quia aut placeat, earum quae. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section2" id="section2">
+            <div class="section2__container">
+                <div class="section2__container__inner inner1">
+                    <img src="img/9.jpg" alt="" >
+                    <div class="section2__container__inner_sometext">
+                        <p>Lorem ipsum dolor sit. </p>
+                        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam temporibus eos, aliquid praesentium unde voluptatem. </span>
+                    </div>
+                </div>
+                <div class="section2__container__inner inner2">
+                    <img src="img/10.jpg" alt="">
+                    <div class="section2__container__inner_sometext">
+                        <p>Lorem ipsum dolor sit. </p>
+                        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam temporibus eos, aliquid praesentium unde voluptatem. </span>
+                    </div>
+                </div>
+                <div class="section2__container__inner inner3">
+                    <img src="img/11.jpg" alt="" >
+                    <div class="section2__container__inner_sometext">
+                        <p>Lorem ipsum dolor sit. </p>
+                        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam temporibus eos, aliquid praesentium unde voluptatem. </span>
+                    </div>
+                </div>
+                <div class="section2__container__inner inner4">
+                    <img src="img/12.jpg" alt="">
+                    <div class="section2__container__inner_sometext">
+                        <p>Lorem ipsum dolor sit. </p>
+                        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam temporibus eos, aliquid praesentium unde voluptatem. </span>
+                    </div>
+                </div>
+                <div class="section2__container__inner inner5">
+                    <img src="img/13.jpg" alt="" >
+                    <div class="section2__container__inner_sometext">
+                        <p>Lorem ipsum dolor sit. </p>
+                        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam temporibus eos, aliquid praesentium unde voluptatem. </span>
+                    </div>
+                </div>
+                <div class="section2__container__inner inner6">
+                    <img src="img/14.jpg" alt="">
+                    <div class="section2__container__inner_sometext">
+                        <p>Lorem ipsum dolor sit. </p>
+                        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam temporibus eos, aliquid praesentium unde voluptatem. </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div id="aside" class="aside">
+        <ul class="aside__brands">
+            <li><img src="img/pu.jpg" alt="Behanse"></li>
+            <li><img src="img/leo.jpg" alt="Puma"></li>
+            <li><img src="img/dr.jpg" alt="Dribbble"></li>
+            <li><img src="img/be.jpg" alt="Leopardis"></li>
+        </ul>
+        <footer>
+            <div class="about">
+                <p class="about_name">Popular Post</p>
+                <span>Lorem ipsum dolor sit amet, consectetur adipisicing. </span>
+                <span>28-September 2017 </span>
+                <div class="about_line"></div><span>Lorem ipsum dolor sit amet, consectetur adipisicing. </span>
+                <span>28-September 2017 </span>
+            </div>
+            <div class="about">
+                <p class="about_name">Tags</p>
+                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint ullam eum itaque porro facilis praesentium dicta fugit quo, possimus mollitia reprehenderit ipsam accusantium accusamus reiciendis odit! Aliquam inventore nam et, nobis rerum ipsa aspernatur commodi facere dicta. Necessitatibus, temporibus, perferendis. </span>
+            </div>
+            <div class="about">
+                <p class="about_name">A little about us </p>
+                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, est animi. Mollitia nemo nobis aperiam aut iste nulla suscipit odit harum sapiente ipsum, eaque assumenda iure, omnis cupiditate. Alias, repudiandae. </span>
+                <span>	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus dolore asperiores repellendus, iure, blanditiis officiis. </span>
+            </div>
+            <div class="about">
+                <p class="about_name"> Get in touch</p>
+                <ul class="about_name_ulLast">
+                    <li><span>Lorem ipsum dolor sit amet, consectetura dipisicing elit.Dolorum, repudiandae atque corrupti velit, cumque in pariatur est dolor facere adipisci nostrum ipsum tempora, ea sunt. </span></li>
+                    <li><span>email@email. com</span></li>
+                    <li><span>890-890980-899800</span></li>
+                </ul>
+            </div>
+        </footer>
+        <div id="site" class="site">
+            <div class="site__end">
+                <p class="site__end_description1">Contact us</p>
+                <p class="site__end_description2">Lorem ipsum dolor sit amet, consectetur.</p>
+            </div>
+            <div class="site__container">
+                <form action="bla.php" method="post" name="your name" id="a">
+                    <input class='forname' id="forname" type="text" size="40" placeholder="your name">
+                    <input class='forsurname' id="forsurname" type="text" size="40" placeholder="your surname">
+                    <input class='mail' id="mail" type="text" size="40" placeholder="@ e-mail">
+                </form>
+                <form action="bla2.php" class="site__container_txtarea" id="txtarea" method="post">
+                    <textarea name="comment" id="comment" cols="40" rows="10"></textarea>
+                </form>
+                <div class="site__container_btn">
+                    <form action="bla.php" method="post" class='site__container_btn_' id="send">
+                        <button type="submit" name="send">send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="fenitalacomedia">
+        <span class="fenitalacomedia_allrights">&#169; 2017 Web world.All rights reserved.</span>
+        <div class="fenitalacomedia__social">
+            <a href="https://twitter.com/?lang=ru" target="blank"> <img src="img/t.png" alt=""></a>
+            <a href="https://www.facebook.com" target="blank"><img src="img/f.png" alt=""></a>
+            <a href="https://www.skype.com/ru/" target="blank"><img src="img/s.png" alt=""></a>
+        </div>
+    </div>
+</body>
+
+</html>
