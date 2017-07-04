@@ -43,6 +43,9 @@ $colorblack:#252323;
 }
 
 .second {
+    bdi {
+        font-size-adjust: inherit;
+    }
     margin: 0;
     padding: 0;
     &__containerforline {

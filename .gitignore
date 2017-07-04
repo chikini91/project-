@@ -3,5 +3,6 @@
 .gulp-scss-cache/
 
 new_css/
-
+.gitignore
 node_modules/
+.idea/
