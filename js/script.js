@@ -1,4 +1,4 @@
-$(document).ready(function() {
+    $(document).ready(function() {
 
 
     // slider //
@@ -20,6 +20,7 @@ $(document).ready(function() {
 
         });
     }
+    
 
     function prevSlide() {
         $(".sliderContainer__slides").stop(true, true).animate({
